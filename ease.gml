@@ -5,12 +5,12 @@
 /// @param end_pos
 /// @param end_time
 
-var type			= argument[0]
+var type		= argument[0]
 var curr_time		= argument[1]
 var start_pos		= argument[2]
-var end_pos			= argument[3]
+var end_pos		= argument[3]
 var end_time		= argument[4]
-var output			= undefined
+var output		= undefined
 var reversed		= false
 var range_shift		= 0
 
@@ -27,7 +27,7 @@ var range_shift		= 0
 //
 if end_pos < start_pos {
 	var end_og		= end_pos
-	var start_og	= start_pos
+	var start_og		= start_pos
 	start_pos		= end_og
 	end_pos			= start_og
 	reversed		= true
