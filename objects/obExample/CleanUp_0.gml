@@ -1,0 +1,2 @@
+ds_list_destroy(easing_enum_list)
+ds_list_destroy(easing_name_list)
